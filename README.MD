@@ -24,7 +24,7 @@ https://github.com/cikupin/docker-beanstalkd
 Then build the images by using this command:
 
 ```php
-docker build -t cikupin/beasntalkd:latest .
+docker build -t cikupin/beanstalkd:latest .
 ```
 
 #### 2. Pull docker image from docker hub
@@ -32,7 +32,7 @@ docker build -t cikupin/beasntalkd:latest .
 If you don't want to build the image manually, you can pull the image from my docker hub repository.
 
 ```php
-docker pull cikupin/beasntalkd
+docker pull cikupin/beanstalkd
 ```
 
 Usage
@@ -41,7 +41,7 @@ Usage
 To run this images, type this command:
 
 ```php
-docker run -d --rm -p 11300:11300 cikupin/beasntalkd:latest
+docker run -d --rm -p 11300:11300 cikupin/beanstalkd:latest
 ```
 
 Beanstalkd is listening in port 11300. To see queue list by using a web interface, try to use [Beanstalk Console](https://github.com/ptrofimov/beanstalk_console).
